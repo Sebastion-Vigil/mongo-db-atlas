@@ -1,0 +1,24 @@
+{
+  "name": "mongo-db-atlas",
+  "version": "1.0.0",
+  "description": "print(\"hello world\")",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastion-Vigil/mongo-db-atlas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebastion-Vigil/mongo-db-atlas/issues"
+  },
+  "homepage": "https://github.com/Sebastion-Vigil/mongo-db-atlas#readme",
+  "dependencies": {
+    "mongoose": "^5.10.0"
+  }
+}
