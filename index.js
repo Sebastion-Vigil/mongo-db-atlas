@@ -2,7 +2,7 @@
 
 mongoose = require("mongoose")
 
-const mongoString = "mongodb+srv://SeanValdivia:thisismypassword@cluster0.ibmhq.mongodb.net/testdb?retryWrites=true&w=majority"
+const mongoString = ""
 
 mongoose.connect(mongoString, {useNewUrlParser: true})
 
