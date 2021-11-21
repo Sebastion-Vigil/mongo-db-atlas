@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Sebastion-Vigil/mongo-db-atlas#readme",
   "dependencies": {
-    "mongoose": "^5.10.0"
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.13"
   }
 }

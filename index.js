@@ -1,10 +1,11 @@
-// https://www.coderrocketfuel.com/article/create-and-connect-to-a-mongodb-atlas-database-with-node-js
+const mongoose = require("mongoose")
+const dotenv = require("dotenv")
 
-mongoose = require("mongoose")
+dotenv.config()
 
-const mongoString = ""
+const mongoString = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.movwi.mongodb.net/sample_airbnb?retryWrites=true&w=majority`
 
-mongoose.connect(mongoString, {useNewUrlParser: true})
+mongoose.connect(mongoString, {useNewUrlParser: true, useUnifiedTopology: true})
 
 mongoose.connection.on("error", function(error) {
   console.log(error)
