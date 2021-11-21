@@ -1,2 +1,2 @@
 # mongo-db-atlas
-print("hello world")
+- https://www.shellhacks.com/mongodb-show-collection-data-mongo-shell/
